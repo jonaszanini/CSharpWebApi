@@ -15,7 +15,9 @@ namespace WebAPIModule1.Controllers
         static List<Product> _products = new List<Product>()
         {
             new Product () {ProductID = 0, ProductName = "LapTop", ProductPrice = "100" },
-            new Product () {ProductID = 1, ProductName = "Mouse", ProductPrice = "20" }
+            new Product () {ProductID = 1, ProductName = "Mouse", ProductPrice = "20" },
+            new Product () {ProductID = 3, ProductName = "Monitor", ProductPrice = "50" }
+
         };
 
         public IActionResult Get()
